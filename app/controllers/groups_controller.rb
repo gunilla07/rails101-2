@@ -11,7 +11,7 @@ class GroupsController < ApplicationController
   end
 
   def edit
-    find_group_and_check_permission
+
   end
 
   def new
@@ -31,7 +31,7 @@ class GroupsController < ApplicationController
 end
 
   def update
-    find_group_and_check_permission
+
 
     if @group.update(group_params)
 
@@ -43,7 +43,7 @@ end
   end
 
   def destroy
-    find_group_and_check_permission
+    
 
     @group.destroy
 

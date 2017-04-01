@@ -1,5 +1,5 @@
 class AddUserIdToGroup < ActiveRecord::Migration[5.0]
   def change
-    add_column :group, :user_id, :intrger
+    add_column :groups, :user_id, :intrger
   end
 end
